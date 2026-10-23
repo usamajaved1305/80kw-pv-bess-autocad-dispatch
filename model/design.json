@@ -1,0 +1,146 @@
+{
+  "mod": {
+    "name": "Jinko JKM580N-72HL4-V",
+    "pmax": 580.0,
+    "vmp": 43.35,
+    "imp": 13.38,
+    "voc": 52.31,
+    "isc": 14.01,
+    "tc_voc": -0.25,
+    "tc_pmax": -0.29,
+    "fuse": 25.0,
+    "length": 2278,
+    "width": 1134,
+    "depth": 30
+  },
+  "inv": {
+    "name": "FoxESS P3-80-Plus",
+    "ac_nom": 80000.0,
+    "ac_max": 88000.0,
+    "ac_imax_380": 133.7,
+    "v_ac": 400.0,
+    "pv_max": 160.0,
+    "v_dc_max": 1000.0,
+    "v_dc_nom": 750.0,
+    "mppt_lo": 180.0,
+    "mppt_hi": 850.0,
+    "v_start": 180.0,
+    "mppt_imax": 40.0,
+    "mppt_iscmax": 55.0,
+    "n_mppt": 8,
+    "strings_per_mppt": 2,
+    "bat_lo": 180.0,
+    "bat_hi": 950.0,
+    "bat_imax": 80.0,
+    "bat_ports": 3,
+    "eps_max": 88000.0,
+    "eff_max": 98.2,
+    "eff_eu": 97.6,
+    "h": 1060,
+    "w": 730,
+    "d": 305,
+    "kg": 120
+  },
+  "bat": {
+    "name": "FoxESS CQ7",
+    "kwh_module": 7.02,
+    "v_module": 57.6,
+    "dod": 0.9,
+    "i_max": 80.0,
+    "i_rec": 50.0,
+    "i_peak": 110.0,
+    "max_modules": 14,
+    "rte": 0.95,
+    "chem": "LFP (LiFePO4)"
+  },
+  "site": {
+    "place": "Commercial unit, I-10 Industrial Area, Islamabad",
+    "t_min": -5.0,
+    "t_cell_max": 70.0,
+    "tilt": 15.0,
+    "azimuth": 180.0,
+    "yield_kwh_per_kwp": 1480.0
+  },
+  "out": {
+    "string": {
+      "voc_cold_module": 56.23,
+      "n_max_by_voltage": 17,
+      "chosen": 17,
+      "voc_cold_string": 956.0,
+      "headroom_pct": 4.4,
+      "vmp_hot_string": 654.0,
+      "vmp_stc_string": 737.0,
+      "above_mppt_min": true
+    },
+    "array": {
+      "modules": 136,
+      "strings": 8,
+      "per_string": 17,
+      "kwp": 78.88,
+      "dc_ac_ratio": 0.99,
+      "strings_per_mppt": 1.0,
+      "mppt_current": 13.38,
+      "mppt_isc": 14.01,
+      "mppt_current_limit": 40.0,
+      "mppt_isc_limit": 55.0,
+      "string_fuses_needed": false
+    },
+    "battery": {
+      "modules": 9,
+      "kwh_nominal": 63.18,
+      "kwh_usable": 56.86,
+      "v_nominal": 518.4,
+      "inside_inverter_window": true,
+      "kw_continuous": 41.5,
+      "kw_peak_60s": 57.0,
+      "c_rate": 0.66,
+      "ports_used": 1,
+      "ports_spare": 2,
+      "expandable_kwh": 294.8
+    },
+    "ac": {
+      "i_nominal": 115.5,
+      "i_max": 127.0,
+      "i_max_at_380": 133.7,
+      "mccb": "160 A 4 pole",
+      "isolator": "250 A 4 pole",
+      "cable": "4C 95 mm2 Cu",
+      "eps_kva": 88.0
+    },
+    "yield": {
+      "specific": 1480.0,
+      "annual_kwh": 116742,
+      "daily_avg_kwh": 319.8
+    },
+    "mech": {
+      "tilt": 15.0,
+      "module_mm": [
+        2278,
+        1134,
+        30
+      ],
+      "projected_depth": 1095,
+      "rise": 294,
+      "shading_case": "21 December 09:00",
+      "sun_elevation": 18.6,
+      "sun_azimuth": 136.8,
+      "shadow": 635,
+      "pitch_min": 1731,
+      "pitch_used": 1800.0,
+      "ground_cover_ratio": 0.63,
+      "rows": 8,
+      "per_row": 17,
+      "row_length": 39046,
+      "array_depth": 13695,
+      "array_area": 534.7,
+      "roof": [
+        46000,
+        24000
+      ],
+      "roof_area": 1104,
+      "coverage_pct": 48.4,
+      "rail_front": 300,
+      "rail_rear": 594
+    }
+  }
+}

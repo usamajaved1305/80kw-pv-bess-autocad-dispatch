@@ -1,0 +1,38 @@
+[
+  {
+    "grid_charge_target_pct": 60,
+    "outage_served_pct": 95.5,
+    "hours_over_target": 965,
+    "hours_over_cut_pct": 10.5,
+    "pv_surplus_captured": 1106,
+    "charged_from_grid": 10449,
+    "equivalent_full_cycles": 193.5
+  },
+  {
+    "grid_charge_target_pct": 75,
+    "outage_served_pct": 96.8,
+    "hours_over_target": 695,
+    "hours_over_cut_pct": 35.5,
+    "pv_surplus_captured": 720,
+    "charged_from_grid": 12649,
+    "equivalent_full_cycles": 223.9
+  },
+  {
+    "grid_charge_target_pct": 90,
+    "outage_served_pct": 97.4,
+    "hours_over_target": 503,
+    "hours_over_cut_pct": 53.3,
+    "pv_surplus_captured": 305,
+    "charged_from_grid": 14462,
+    "equivalent_full_cycles": 247.2
+  },
+  {
+    "grid_charge_target_pct": 100,
+    "outage_served_pct": 97.7,
+    "hours_over_target": 390,
+    "hours_over_cut_pct": 63.8,
+    "pv_surplus_captured": 0,
+    "charged_from_grid": 15546,
+    "equivalent_full_cycles": 260.2
+  }
+]
